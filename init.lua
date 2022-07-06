@@ -93,5 +93,5 @@ local list = {
 }
 
 if minetest.get_modpath("wine") then
-	wine.add_item(list)--not working ( attempt to get length of local 'list')
+	wine:add_item(list)--not working ( attempt to get length of local 'list')
 end
